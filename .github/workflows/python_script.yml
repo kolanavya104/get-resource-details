@@ -30,7 +30,6 @@ jobs:
     - name: Set AWS Region
       env:
         AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }} # Replace with your desired region in environment variables
-      run: echo "AWS region set to $AWS_DEFAULT_REGION"
 
     - name: Run your script
       env:
