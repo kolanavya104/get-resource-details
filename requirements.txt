@@ -1,0 +1,6 @@
+echo "boto3>=1.26.0" >> requirements.txt
+echo "prettytable>=2.6.0" >> requirements.txt
+echo "botocore>=1.29.0" >> requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
