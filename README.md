@@ -1,4 +1,4 @@
-# get-resource-details
+# gAWS EC2 and S3 Resource Email Reporter
 Python code to generate details of the AWS resources (listed below) and publish them in a table format via email.
 
 ○ AWS EC2 Running Instances
